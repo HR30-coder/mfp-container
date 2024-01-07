@@ -32,7 +32,7 @@ jobs:
 
     - name: Deploy with gh-pages
       run: |
-         git remote set-url origin https://git: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@github.com/${GITHUB_REPOSITORY}.git
+         git remote set-url origin https://git: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@github.com/${GITHUB_REPOSITORY}.git
          npx gh-pages -d dist -u "github-actions-bot <support+actions@github.com>"
       env:
-         GITHUB_TOKEN: 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
+         GITHUB_TOKEN: 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
